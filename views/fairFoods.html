@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fair Foods Reservation System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Fair Foods at Lena Park</h1>
+        <p>Use this page to reserve one or more bags of fresh produce.
+        Pick up on Tuesday afternoons at Lena Park. Each bag costs $2.</p>
+    </div>
+    <div class="formquestion">
+        <p>How many grocery bags do you want to purchase?</p>
+    <form action="/order" method="POST">
+        Name: <input type="text" name="fname"><br>
+        Number of bags: 
+        <!-- <select name="number"> -->
+            <input type="number" min="1" max="100" value="1">
+      </form>
+      
+      <button type="Save" form="form1" value="Save">Save</button>
+    </form>
+
+    
+    </div>
+</body>
+</html>
